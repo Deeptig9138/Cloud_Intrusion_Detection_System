@@ -1,1 +1,19 @@
+1. Define Functions for Operations:
+- Create functions for addition, subtraction, multiplication, and division. Each function takes two parameters and returns the result.
+
+2. Define the Main Function:
+- Display a welcome message and operation choices to the user.
+- Start an infinite loop to handle user input.
+
+3. Input Handling:
+- Ask the user to select an operation (1, 2, 3, or 4).
+- If the choice is valid, prompt the user for two numbers.
+- Perform the chosen operation using the appropriate function and display the result.
+- Exit the loop after performing the calculation.
+
+4. Error Handling:
+- If the user enters an invalid choice or non-numeric values, display an error message and prompt again.
+
+5.Main Program Execution:
+- Ensure the `main()` function is called if the script is executed directly.
 
