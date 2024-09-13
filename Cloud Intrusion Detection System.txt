@@ -1,0 +1,34 @@
+1. Imports and Setup:
+os: For accessing environment variables and file system operations.
+boto3: AWS SDK for Python, used to interact with AWS services like CloudTrail.
+numpy: For numerical operations and array manipulations.
+IsolationForest: A machine learning model from scikit-learn for anomaly detection.
+json: For parsing JSON data.
+smtplib and email.mime.text: For sending email alerts.
+logging: For logging information and errors.
+
+2. Logging Setup: Sets up logging with INFO level to capture and log important events and errors.
+
+3. AWS and Email Configuration:
+Initializes an AWS session using credentials stored in environment variables.
+Creates a CloudTrail client to interact with AWS CloudTrail service.
+Retrieves email credentials from environment variables for sending alerts.
+
+4. Fetch CloudTrail Logs: get_cloudtrail_logs: Fetches the most recent 10 CloudTrail events. Handles exceptions and logs errors if fetching fails.
+
+5. Extract API Call Counts: extract_api_call_counts: Processes logs to count occurrences of each API call and returns these counts in a NumPy array.
+
+6. Detect Public S3 Buckets: detect_public_s3_buckets: Scans logs for events indicating that an S3 bucket's public access settings have changed and generates alerts if such changes are detected.
+
+7. Detect API Anomalies: detect_api_anomalies: Uses the Isolation Forest algorithm to detect anomalies in API call frequencies. Flags any significant deviations as anomalies and generates alerts.
+
+8. Send Alert Email: send_alert_email: Composes and sends an email with a subject and body containing alert information. Handles exceptions and logs errors if sending fails.
+
+9. Run Intrusion Detection: 
+run_intrusion_detection: Orchestrates the entire process:
+Fetches CloudTrail logs.
+Applies rule-based detection for public S3 buckets.
+Applies anomaly detection for API call patterns.
+Sends an email alert if any issues are detected or logs that the system is normal.
+
+10. Script Entry Point: Ensures that the run_intrusion_detection function is called when the script is executed directly.
