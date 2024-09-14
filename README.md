@@ -1,8 +1,12 @@
 In any and all cases to discuss about the project, changes in the project : www.linkedin.com/in/deepti-gupta-775736289
 
 # Cloud Intrusion Detection System
-
-This project detects potential intrusions by analyzing AWS CloudTrail logs and identifying public S3 bucket access or abnormal API call patterns.
+Overview:
+This system leverages machine learning and rule-based techniques to provide a robust solution for detecting potential security threats in AWS CloudTrail logs. The main components of the system include:
+Log Collection: Fetches recent CloudTrail logs to monitor AWS activities.
+Anomaly Detection: Uses the Isolation Forest algorithm to identify unusual API call patterns.
+S3 Bucket Monitoring: Detects changes in S3 bucket permissions, specifically identifying if a bucket becomes public.
+Alert System: Sends automated email alerts when potential security issues are detected.
 
 ## Requirements
 
