@@ -3,10 +3,16 @@ In any and all cases to discuss about the project, changes in the project : www.
 # Cloud Intrusion Detection System
 Overview:
 This system leverages machine learning and rule-based techniques to provide a robust solution for detecting potential security threats in AWS CloudTrail logs. The main components of the system include:
-Log Collection: Fetches recent CloudTrail logs to monitor AWS activities.
-Anomaly Detection: Uses the Isolation Forest algorithm to identify unusual API call patterns.
-S3 Bucket Monitoring: Detects changes in S3 bucket permissions, specifically identifying if a bucket becomes public.
-Alert System: Sends automated email alerts when potential security issues are detected.
+1) Log Collection: Fetches recent CloudTrail logs to monitor AWS activities.
+2) Anomaly Detection: Uses the Isolation Forest algorithm to identify unusual API call patterns.
+3) S3 Bucket Monitoring: Detects changes in S3 bucket permissions, specifically identifying if a bucket becomes public.
+4) Alert System: Sends automated email alerts when potential security issues are detected.
+
+Features:
+1) Real-time Monitoring: Quickly detects and responds to potential security threats.
+2) Advanced Analytics: Employs machine learning to detect anomalies.
+3) Customizable Alerts: Configurable alerts to provide relevant information for timely responses.
+4) Robust Logging: Detailed logging for better tracking and debugging.
 
 ## Requirements
 
