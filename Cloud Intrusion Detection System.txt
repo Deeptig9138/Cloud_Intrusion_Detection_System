@@ -13,14 +13,6 @@ Advanced Analytics: Employs machine learning to detect anomalies.
 Customizable Alerts: Configurable alerts to provide relevant information for timely responses.
 Robust Logging: Detailed logging for better tracking and debugging.
 
-Configure Environment Variables: Create a .env file in the root directory and add the following environment variables:
-AWS_ACCESS_KEY_ID=your_aws_access_key_id
-AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
-AWS_REGION=your_aws_region
-SENDER_EMAIL=your_email@gmail.com
-EMAIL_PASSWORD=your_email_password
-RECEIVER_EMAIL=receiver_email@gmail.com
-
 1. Imports and Setup:
 os: For accessing environment variables and file system operations.
 boto3: AWS SDK for Python, used to interact with AWS services like CloudTrail.
