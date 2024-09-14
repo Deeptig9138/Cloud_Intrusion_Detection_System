@@ -1,7 +1,0 @@
-
-
-Features
-Real-time Monitoring: Quickly detects and responds to potential security threats.
-Advanced Analytics: Employs machine learning to detect anomalies.
-Customizable Alerts: Configurable alerts to provide relevant information for timely responses.
-Robust Logging: Detailed logging for better tracking and debugging.
