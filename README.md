@@ -1,4 +1,4 @@
-In any and all cases to discuss about the project, changes in the project : www.linkedin.com/in/deepti-gupta-775736289
+In cases of discussion and changes, contact : www.linkedin.com/in/deepti-gupta-775736289
 
 # Cloud Intrusion Detection System
 Overview:
