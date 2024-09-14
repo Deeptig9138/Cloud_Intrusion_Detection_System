@@ -12,8 +12,6 @@ This project detects potential intrusions by analyzing AWS CloudTrail logs and i
 
 ## Setup
 
-1. Clone the repository:
-
 ```bash
 git clone https://github.com/Deeptig9138/cloud-intrusion-detection.git
 cd cloud-intrusion-detection
