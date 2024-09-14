@@ -1,7 +1,14 @@
-Configure Environment Variables: Create a .env file in the root directory and add the following environment variables:
-AWS_ACCESS_KEY_ID=your_aws_access_key_id
+boto3==1.26.80
+numpy==1.23.5
+scikit-learn==1.1.2
+
+# AWS credentials
+AWS_ACCESS_KEY_ID=your_aws_access_key
 AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
 AWS_REGION=your_aws_region
-SENDER_EMAIL=your_email@gmail.com
+
+# Email credentials
+SENDER_EMAIL=your_sender_email@gmail.com
 EMAIL_PASSWORD=your_email_password
 RECEIVER_EMAIL=receiver_email@gmail.com
+
