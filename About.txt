@@ -1,0 +1,12 @@
+Overview
+This system leverages machine learning and rule-based techniques to provide a robust solution for detecting potential security threats in AWS CloudTrail logs. The main components of the system include:
+Log Collection: Fetches recent CloudTrail logs to monitor AWS activities.
+Anomaly Detection: Uses the Isolation Forest algorithm to identify unusual API call patterns.
+S3 Bucket Monitoring: Detects changes in S3 bucket permissions, specifically identifying if a bucket becomes public.
+Alert System: Sends automated email alerts when potential security issues are detected.
+
+Features
+Real-time Monitoring: Quickly detects and responds to potential security threats.
+Advanced Analytics: Employs machine learning to detect anomalies.
+Customizable Alerts: Configurable alerts to provide relevant information for timely responses.
+Robust Logging: Detailed logging for better tracking and debugging.
